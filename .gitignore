@@ -1,20 +1,60 @@
-# Байт-код, оптимизированные / DLL-файлы
+```
+# Python
 __pycache__/
-*.py[cod]
-
-# Файлы конфигурации для venv
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
-.env
-/.venv/
-
-# Файлы дистрибутивов и артефакты упаковки
-dist/
+.venv/
+.eggs/
+.egg-info/
 *.egg-info/
 
-# Файлы покрытия, кэши и прочие ненужные файлы
+# Testing
+.tests/
+.pytest_cache/
 .coverage
-*.py,cover
-.cache/
+htmlcov/
+coverage.xml
 
-# Контрольные точки в Jupyter notebook лучше оставить в стороне
-.ipynb_checkpoints
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+```
